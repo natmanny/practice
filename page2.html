@@ -1,0 +1,52 @@
+<html>
+  
+  <head>
+    
+    <style>
+      @keyframes spin {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(359deg);
+    }
+}
+
+holder {
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+header {
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-size: 37pt;
+  height: 40px;
+  padding: 10px 10px 0px 18px;
+  z-index: 1;
+}
+body {
+  background-color: papayawhip;
+  color: coral;
+  font-family: "Josefin Sans", sans-serif;
+  cursor: default;
+}
+.axolotl {
+  margin-top: 8%;
+  margin-left: 45%;
+  width: 100px;
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+    </style>
+  </head>
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin Sans">
+  <body>
+    <holder> <header>Page Two</header></holder>
+    <div class="axolotl"><img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/ff/Gold_Axolotl_JE2.png"/>
+  </body>
+  
+</html>
