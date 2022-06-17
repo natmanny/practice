@@ -1,0 +1,148 @@
+<html>
+     <head>
+         <style>
+         holder {
+  position: fixed;
+  background-color: papayawhip;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  float:bottom;
+}
+header {
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-size: 37pt;
+  height: 40px;
+  padding: 10px 10px 0px 18px;
+  z-index: 1;
+}
+nav {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-right: 32px;
+  padding: 5px 0 15px;
+  text-align: center;
+  font-size: 20pt;
+  height: inherit;
+}
+nav li {
+  display: inline;
+  background-color: peachpuff;
+  padding: 6px;
+  cursor: pointer;
+  justify-content: space-evenly;
+}
+ul {
+  margin: 0px;
+}
+nav li:hover {
+  background-color: lightsalmon;
+}
+section {
+  margin-top: 90px;
+  float: left;
+  display: flex;
+  width: 16%;
+  background-color: lightsalmon;
+  color: papayawhip;
+  padding: 2%;
+}
+aside {
+  margin-top: 90px;
+  float: left;
+  width: 76%;
+  padding: 2%;
+  /*flex: 1;*/
+}
+footer {
+  clear: both;
+  background-color: coral;
+  color: papayawhip;
+  padding: 10px;
+  /*display:flex;
+  flex-direction: column;*/
+}
+body {
+  background-color: papayawhip;
+  color: coral;
+  margin: 0px;
+  font-family: "Josefin Sans", sans-serif;
+  cursor: default;
+  font-size: 12pt;
+}
+img.frog {
+  border: 12px dotted coral;
+  float: left;
+  margin: 35px;
+}
+p {
+  text-align: justify;
+  text-indent: 2em;
+}
+div {
+  display: none;
+  margin-top: 30px;
+}
+.mystyle {
+  display: block;
+}
+button {
+  border: none;
+  background-color: transparent;
+  margin-left: 30%;
+}
+.froglight {
+  display: inline;
+  cursor: pointer;
+  padding: 5px;
+}
+         </style>
+         
+         <script>
+         function myFunction() {
+  var element = document.getElementById("maintext");
+  element.classList.toggle("mystyle");
+}
+         </script>
+     
+         <title>Home</title>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin Sans">
+     </head>
+     <body>
+       <holder>
+       <header>NATALIE</header>
+            <nav>
+             <ul>
+             <li>Resume</li>
+             <li>Portfolio</li>
+             </ul>
+         </nav>
+         </holder>
+         <section>
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus elementum eu ante a convallis. Nulla facilisi. Duis mollis leo sit amet tortor vehicula elementum. Duis pretium erat tristique, ornare tortor id, varius nibh. Nunc fermentum ipsum nulla, eu suscipit metus congue nec. Phasellus eleifend odio et rutrum hendrerit. Aliquam molestie dui diam, vel accumsan erat ornare quis. Etiam sed enim vel tortor tempor feugiat. Suspendisse potenti.
+
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean neque ex, dignissim nec cursus quis, auctor vel massa. Sed semper felis id tellus gravida dictum. Praesent lorem mi, ullamcorper ac enim vel, consectetur egestas sem. Curabitur tristique lacinia auctor. Praesent at hendrerit ligula. Quisque at turpis quis libero finibus consequat ac a felis. Etiam eu massa lacus. Suspendisse neque nunc, viverra gravida quam in, viverra mattis nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque et metus vel lectus tincidunt hendrerit quis sit amet libero. Morbi imperdiet rutrum ex a auctor. Nam vitae magna lorem. Aliquam erat volutpat. Nulla facilisi. Pellentesque suscipit urna interdum nibh facilisis, at commodo eros convallis.
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi tempor, tellus nec dignissim egestas, ante justo tempus leo, ut posuere neque justo sed augue. Curabitur maximus urna vitae sapien dictum, sodales imperdiet sapien maximus. In hac habitasse platea dictumst.
+         </section>
+         <aside>
+           <a href="https://minecraft.fandom.com/wiki/Frog"><img class="frog" src="https://staticg.sportskeeda.com/editor/2022/01/7c37e-16426213215340-1920.jpg" width=500px/></a>
+           <h3>Lorem</h3>
+             <p>Sed consequat, libero et euismod consectetur, arcu dui tempor risus, nec rhoncus enim libero ac sapien. Cras laoreet fringilla blandit. Nunc ultrices nunc vitae ante venenatis pellentesque. Fusce quis mattis tellus, eu faucibus enim. Morbi vestibulum, felis eu hendrerit porta, tortor magna tincidunt nulla, sed viverra ex lorem vitae massa. Vestibulum eu rutrum lectus, at volutpat sem. Praesent felis massa, sagittis sed est nec, vulputate sodales turpis. Vivamus mauris orci, tristique sed felis aliquet, laoreet iaculis libero. In vel volutpat lacus. Vestibulum risus mi, ullamcorper sed nibh quis, aliquam vulputate dolor. Fusce eros ex, facilisis vel convallis eu, efficitur nec orci. Ut sit amet mattis mauris, in pellentesque ex. Pellentesque ornare lectus at enim efficitur efficitur. Integer vestibulum dignissim massa, id laoreet neque facilisis et. Sed ultricies semper massa eget efficitur. Duis vel tellus non neque imperdiet consequat. Nulla congue sodales dolor sit amet lobortis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean neque ex, dignissim nec cursus quis, auctor vel massa. Sed semper felis id tellus gravida dictum. Praesent lorem mi, ullamcorper ac enim vel, consectetur egestas sem. Curabitur tristique lacinia auctor. Praesent at hendrerit ligula. Quisque at turpis quis libero finibus consequat ac a felis. Etiam eu massa lacus. Suspendisse neque nunc, viverra gravida quam in, viverra mattis nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque et metus vel lectus tincidunt hendrerit quis sit amet libero. Morbi imperdiet rutrum ex a auctor. Nam vitae magna lorem. Aliquam erat volutpat. Nulla facilisi. Pellentesque suscipit urna interdum nibh facilisis, at commodo eros convallis.</p>
+
+<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi tempor, tellus nec dignissim egestas, ante justo tempus leo, ut posuere neque justo sed augue. Curabitur maximus urna vitae sapien dictum, sodales imperdiet sapien maximus. In hac habitasse platea dictumst. Aliquam id augue facilisis, blandit justo non, tempor tellus. Nullam volutpat sit amet eros non vestibulum. Nunc finibus dictum est sit amet sollicitudin. Pellentesque laoreet accumsan ligula congue accumsan. Vivamus vulputate, velit ut eleifend egestas, neque lacus pretium lorem, vel sodales elit orci a turpis. Proin elementum porta rutrum. Aenean volutpat odio eget est vestibulum, in mollis dolor interdum. Sed quis mauris maximus, tincidunt nibh non, consequat sem.</p>
+          <button onclick="myFunction()"><img class="froglight" src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/ad/Verdant_Froglight_BE2.png" width=100px/>
+          <img class="froglight" src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f1/Ochre_Froglight_BE2.png" width=100px/>
+          <img class="froglight" src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d6/Pearlescent_Froglight_BE2.png" width=100px/></button>
+         <div id="maintext">
+           <p>Sed consequat, libero et euismod consectetur, arcu dui tempor risus, nec rhoncus enim libero ac sapien. Cras laoreet fringilla blandit. Nunc ultrices nunc vitae ante venenatis pellentesque. Fusce quis mattis tellus, eu faucibus enim. Morbi vestibulum, felis eu hendrerit porta, tortor magna tincidunt nulla, sed viverra ex lorem vitae massa. Vestibulum eu rutrum lectus, at volutpat sem. Praesent felis massa, sagittis sed est nec, vulputate sodales turpis. Vivamus mauris orci, tristique sed felis aliquet, laoreet iaculis libero. In vel volutpat lacus. Vestibulum risus mi, ullamcorper sed nibh quis, aliquam vulputate dolor. Fusce eros ex, facilisis vel convallis eu, efficitur nec orci. Ut sit amet mattis mauris, in pellentesque ex. </p>
+          <p>Estibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi tempor, tellus nec dignissim egestas, ante justo tempus leo, ut posuere neque justo sed augue. Curabitur maximus urna vitae sapien dictum, sodales imperdiet sapien maximus. In hac habitasse platea dictumst. Aliquam id augue facilisis, blandit justo non, tempor tellus. Nullam volutpat sit amet eros non vestibulum. </p>
+           </div>
+         </aside>
+         <footer>
+             Copyright Area, Contact Us.
+         </footer>
+     </body>
+ </html>
